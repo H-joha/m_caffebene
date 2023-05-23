@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Hello Again 우리동네 카페베네 홈페이지입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CAFFEBENE">
+  <meta property="og:description" content="Hello Again 우리동네 카페베네 홈페이지입니다.">
+  <meta property="og:image" content="http://hong404.dothome.co.kr/m_caffebene/images/caffebene_og.png">
+  <meta property="og:url" content="http://hong404.dothome.co.kr/m_caffebene">
+  <title>CAFFEBENE</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/caffebene.ico?v=1">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="images/caffebene_m.png" alt="카페베네">
+        </a>
+      </h1>
+      <a class="btn_open" href="#">
+        <img src="images/ico_menu_blck.png" alt="전체메뉴 열기">
+      </a>
+      <button class="btn_search" type="button">검색창 열기</button>
+      <div class="dimmed"></div>
+      <aside class="all_menu">
+        <ul class="lang_wrap">
+          <li class="active"><a href="#">KR</a></li>
+          <li><a href="#">EN</a></li>
+        </ul>
+        <button class="btn_close">닫기버튼</button>
+        <nav class="gnb_wrap">
+          <ul class="gnb">
+            <li>
+              <a href="#">CAFFEBENE</a>
+              <ul class="depth02">
+                <li><a href="about.html">브랜드 스토리</a></li>
+                <li><a href="about.html">베네캣 스토리</a></li>
+                <li><a href="about.html">카페베네 원두</a></li>
+                <li><a href="about.html">카페베네 소식</a></li>
+                <li><a href="about.html">매거진</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">MENU</a>
+              <ul class="depth02">
+                <li><a href="menu.html">신메뉴</a></li>
+                <li><a href="menu.html">커피</a></li>
+                <li><a href="menu.html">음료</a></li>
+                <li><a href="menu.html">푸드</a></li>
+                <li><a href="menu.html">MD상품</a></li>
+                <li><a href="menu.html">Retail</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">STORE</a>
+              <ul class="depth02">
+                <li><a href="#">국내</a></li>
+                <li><a href="#">해외</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">MEMBERSHIP</a>
+              <ul class="depth02">
+                <li><a href="faq.html">등급&amp;혜택</a></li>
+                <li><a href="faq.html">가입방법안내</a></li>
+                <li><a href="faq.html">서비스</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">GLOBAL</a>
+              <ul class="depth02">
+                <li><a href="#">해외매장안내</a></li>
+                <li><a href="#">해외매장소개</a></li>
+                <li><a href="#">해외가맹&amp;유통문의</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">CONTENTS</a>
+              <ul class="depth02">
+                <li><a href="#">커피</a></li>
+                <li><a href="#">우리동네</a></li>
+                <li><a href="#">사람들</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">매장</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn_wrap">
+          <a class="btn_inquiry" href="#" target="_blank">가맹문의</a>
+          <a class="btn_login" href="login.html">로그인</a>
+          <a class="btn_join" href="login.html">회원가입</a>
+        </div>
+        <ul class="sns_wrap">
+          <li><a href="#"><img src="images/icon_bt_app.png" alt="멤버쉽으로 이동"></a></li>
+          <li><a href="#" target="_blank"><img src="images/icon_bt_blog.png" alt="블로그로 이동"></a></li>
+          <li><a href="#" target="_blank"><img src="images/icon_bt_yt.png" alt="유투브로 이동"></a></li>
+          <li><a href="#" target="_blank"><img src="images/icon_bt_insta.png" alt="인스타그램으로 이동"></a></li>
+          <li><a href="#" target="_blank"><img src="images/icon_bt_fb.png" alt="페이스북으로 이동"></a></li>
+        </ul>
+      </aside>
+      <div class="search_area">
+        <form>
+          <fieldset>
+            <legend>상품검색</legend>
+            <input class="search_box" type="text" title="검색창" placeholder="검색어를 입력해주세요" autocomplete="off">
+            <button class="btn_submit" type="button">검색</button>
+          </fieldset>
+        </form>
+      </div>
+    </header>
+    <div id="container" class="about_page">
+      <div class="sub_visual">
+        <div class="inner">
+          <p>우리동네의<br>[CAFFEBENE]가<br>있습니다.</p>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="intro_wrap">
+          <div class="txt_inner">
+            <p class="txt_top">2008년부터 지금까지 <strong class="txt">카페베네</strong>는<br>대한민국 대표 토종 커피브랜드로<br>많은 사랑을 받아왔습니다.</p>
+            <p class="txt_bottom">‘배려’와 ‘진정성’으로<br>소중한 오늘의 이야기를 만들어가는 곳<br>가장 나다운 시간을 보낼 수 있는 곳<br>누구에게나 소중한 진심을 다하는 곳이 되겠습니다.</p>
+          </div>
+        </div>
+        <div class="story_wrap">
+          <div class="story animate_fade_up">
+            <div class="img_wrap">
+              <img src="images/about_story1.jpg" alt="">
+            </div>
+            <div class="txt_wrap">
+              <strong class="txt">동네마다 알게 모르게<br>우리 곁을 둘러싸고 있는<br>정겨운 것들이 있습니다.</strong>
+              <p>오래된 세탁소,<br>아이들 웃음 소리처럼 없으면 서운하고,<br>있으면 더 없이 좋은 그런 것들이요.</p>
+            </div>
+          </div>
+          <div class="story animate_fade_up">
+            <div class="img_wrap">
+              <img src="images/about_story2.jpg" alt="">
+            </div>
+            <div class="txt_wrap">
+              <strong class="txt">우리도 그런 존재가<br>
+                되려고 합니다.</strong>
+              <p>화려한 랜드마크는 아니더라도<br>
+                누구나 편하게 드나들 수 있는 곳</p>
+              <p>언제나 활짝 열려있는<br>
+                동네 사랑방 같은 곳이 되려고 합니다.</p>
+              <p>우리 동네의 자랑이 되고 싶습니다.<br>
+                나의 정다운 이웃, 당신을 기다리고 있습니다.</p>
+            </div>
+          </div>
+          <div class="story animate_fade_up">
+            <div class="img_wrap">
+              <img src="images/about_story3.jpg" alt="">
+            </div>
+            <div class="txt_wrap">
+              <strong class="txt">우리동네 카페베네</strong>
+              <p>그래서, 우리의 내일이<br>
+                오늘보다 조금 더 빛날 수 있도록</p>
+              <p>누구에게나 열려있는 공간<br>
+                머물고 싶은 편안한 아지트가 되겠습니다</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer_top">
+        <a class="f_logo" href="#">
+         <img src="images/f-logo.png" alt="카페베네">
+        </a>
+        <a class="call" href="tel:1688-4666">고객센터 1688-4666</a>
+      </div>
+      <ul class="link_list">
+        <li><a href="#">오시는 길</a></li>
+        <li><a href="#">제휴문의</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용약관</a></li>
+      </ul>
+      <div class="txt_wrap">
+        <dl>
+          <dt>주소 :</dt>
+          <dd>서울시 성동구 상원1길 25</dd>
+        </dl>
+        <dl>
+          <dt>대표이사 :</dt>
+          <dd>박그레타</dd>
+        </dl>
+        <dl>
+          <dt>사업자등록번호 :</dt>
+          <dd>206-86-29161</dd>
+        </dl>
+        <dl>
+          <dt>e-mail :</dt>
+          <dd>benecs@caffebene.co.kr</dd>
+        </dl>
+        <p class="copyright">Copyright© by Caffebene, All rights reserved.</p>
+      </div>
+      <div class="btn_sns">
+        <a href="#">
+          <img src="images/icon_bt_app.png" alt="카페베네 멤버쉽">
+        </a>
+        <a href="https://blog.naver.com/caffebene-official" target="_blank">
+          <img src="images/icon_bt_blog.png" alt="카페베네 블로그">
+        </a>
+        <a  href="https://www.youtube.com/channel/UCQ7MW5IpWOL9LwQqr_AWQ9A/featured" target="_blank">
+          <img src="images/icon_bt_yt.png" alt="카페베네 유투브">
+        </a>
+        <a href="https://www.instagram.com/caffebene_official/" target="_blank">
+            <img src="images/icon_bt_insta.png" alt="카페베네 인스타">
+        </a>
+        <a href="https://www.facebook.com/caffebene" target="_blank">
+          <img src="images/icon_bt_fb.png" alt="카페베네 페이스북">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
