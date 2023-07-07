@@ -90,7 +90,6 @@ $(function () {
   // menu 페이지 : menu_list
   $('.menu_page .checkbox_wrap').on('click', function () {
     var cate = $(this).data('cate');
-    console.log(cate);
 
     if (cate === 'all') {
       $('.menu_list li').show();

@@ -9,6 +9,24 @@
        url(../fonts/Roboto.ttf) format('truetype');
 }
 
+:root {
+    --color-point01: #00a5b1;
+    --color-point02: #3a466a;
+    --color-point03: #a75615;
+    --color-point04: #ffffff;
+    --color-point05: #f1f1f1;
+    --color-point06: #f2f2f2;
+    --color-point07: #e8eaf0;
+    --color-point08: #dddddd;
+    --color-point09: #bbbbbb;
+    --color-point10: #222222;
+    --color-point11: #444444;
+    --color-point12: #666666;
+    --color-point13: #888888;
+    --color-point14: #8b8b8b;
+    --color-point15: #a5a5a5;
+}
+
 /* 반응형, 모바일에서 모든요소의 패딩,선을 크기안에 포함시킴 */
 /* 레이아웃에 관련되므로 운영코딩시에는 주의를 요함 */
 *,:before,:after {box-sizing: border-box;}
